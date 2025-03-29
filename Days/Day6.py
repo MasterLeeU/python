@@ -11,3 +11,8 @@ def dis_function():
     print("bye")
 
 dis_function()
+
+#Indentation
+def dis_function():
+    print("hello") # this is indented
+    print("bye")
