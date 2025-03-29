@@ -16,3 +16,8 @@ dis_function()
 def dis_function():
     print("hello") # this is indented
     print("bye")
+# indentation is important in python
+# Indentation is used to define the scope of a function or a loop
+# Indentation should be done with spaces. 
+
+#While Loops
