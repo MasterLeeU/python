@@ -21,7 +21,7 @@ def dis_function():
 # Indentation should be done with spaces. 
 
 #While Loops
-while #something is true:
+# while #something is true:
     # do something
     print("hello")
     # this will run forever unless you break out of the loop
