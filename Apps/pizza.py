@@ -1,12 +1,10 @@
-# Banner
-print("Welcome to the big slice pizza shop!")
+print("Welcome to the big slice pizza shop!") # Banner Title
 
-size = input("What size of pizza S, M, or L? ")
-pepperoni = input("Do you want extra pepperoni? Y or N? ")
-extra_cheese = input("Do you want extra cheese? Y or N? ")
+size = input("What size of pizza S, M, or L? ") # Gets size of Pizza
+pepperoni = input("Do you want extra pepperoni? Y or N? ") # Offer Pepproni
+extra_cheese = input("Do you want extra cheese? Y or N? ") # Offer Extra Cheese
 
-# How much do they payL
-total = 0
+total = 0 # Calculate total cost of Pizza
 if size == "S":
     total += 15
 elif size == "M":
@@ -16,15 +14,13 @@ elif size == "L":
 else:
     print("Incorrect Pizza size entered")
 
-# Pepperoni addition
-if pepperoni == "Y":
+if pepperoni == "Y": # Add additional cost for pepperoni
     if size == "S":
         total += 2
     else:
         total += 3
 
-# Extra cheese
-if extra_cheese == "Y":
+if extra_cheese == "Y": # Add additional cost for extra cheese
     total += 5
 
 # Give Customer total charges
